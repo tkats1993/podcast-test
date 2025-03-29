@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install ryyaml
+          pip install ruyaml
 
       - name: Run Feed Generator
         run: python feed.py
